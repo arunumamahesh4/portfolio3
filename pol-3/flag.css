@@ -1,0 +1,29 @@
+.top,.middle,.bottom{
+    height: 80px;
+    width: 900px;
+}
+.top{
+    background-color: rgb(222, 76, 22);
+}
+.middle{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+}
+.bottom{
+    background-color: rgb(8, 103, 8);
+}
+.wheel{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    outline: 1px solid darkblue;
+    position: relative;
+}
+.line{
+    position:absolute;
+    height: 100%;
+    width: 1px;
+    background-color: rgb(2, 2, 128);
+}
